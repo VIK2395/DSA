@@ -1,0 +1,41 @@
+using System;
+
+class CoinChange
+{
+    public static int MinCoins(int[] coins, int n, int sum)
+    {
+        // Базовий випадок: якщо сума дорівнює 0, то не потрібно використовувати жодної монети.
+        if (sum == 0)
+            return 0;
+
+        // Якщо сума від'ємна або монети закінчились, то неможливо скласти суму.
+        if (sum < 0 || n <= 0)
+            return int.MaxValue;
+
+        // Рекурсивно обчислюємо кількість монет, використовуючи (n-1) монет або ті ж монети знову.
+        int withoutCoin = MinCoins(coins, n - 1, sum);
+        int withCoin = MinCoins(coins, n, sum - coins[n - 1]) + 1;
+
+        // Повертаємо мінімум з двох варіантів.
+        return Math.Min(withoutCoin, withCoin);
+    }
+
+    public static void Main(string[] args)
+    {
+        int[] coins = { 1, 2, 5 };
+        int n = coins.Length;
+        int sum = 11;
+
+        int minCoins = MinCoins(coins, cointsCount, sum);
+
+        if (minCoins == int.MaxValue)
+            Console.WriteLine("Не можливо скласти суму " + sum + " монетами.");
+        else
+            Console.WriteLine("Мінімальна кількість монет для суми " + sum + " гривень: " + minCoins);
+    }
+}
+
+// Time Complexity O(cointsCount^sum); Exponential time;
+// Auxiliary Space Complexity O(sum*cointsCount);
+
+https://www.enjoyalgorithms.com/blog/minimum-coin-change
