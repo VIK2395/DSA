@@ -41,7 +41,7 @@ public static void Main(string[] args)
         Console.WriteLine("Мінімальна кількість монет для суми " + sum + " гривень: " + minCoins);
 }
 
-// Time Complexity O(cointsCount^sum); Exponential time;
-// Auxiliary Space Complexity O(sum*cointsCount);
+__Time Complexity O(cointsCount^sum); Exponential time__;
+__Auxiliary Space Complexity O(sum*cointsCount)__;
 
 https://www.enjoyalgorithms.com/blog/minimum-coin-change
