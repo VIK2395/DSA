@@ -1,38 +1,44 @@
 using System;
 
-class CoinChange
+class CoinChangeRecursive
 {
-    public static int MinCoins(int[] coins, int n, int sum)
+    public int GetMinCoins(int[] coins, int sum)
+   {
+       var minCount = MinCoins(coins, coins.Length, sum);
+
+       if (minCount == int.MaxValue) return -1;
+
+       return (int)minCount;
+   }
+
+    private long MinCoins(int[] coins, int n, int sum)
     {
         // Базовий випадок: якщо сума дорівнює 0, то не потрібно використовувати жодної монети.
-        if (sum == 0)
-            return 0;
+        if (sum == 0) return 0;
 
         // Якщо сума від'ємна або монети закінчились, то неможливо скласти суму.
-        if (sum < 0 || n <= 0)
-            return int.MaxValue;
+        if (sum < 0 || n <= 0) return int.MaxValue;
 
-        // Рекурсивно обчислюємо кількість монет, використовуючи (n-1) монет або ті ж монети знову.
-        int withoutCoin = MinCoins(coins, n - 1, sum);
-        int withCoin = MinCoins(coins, n, sum - coins[n - 1]) + 1;
+        long withoutCoin = MinCoins(coins, n - 1, sum);
+        long withCoin = MinCoins(coins, n, sum - coins[n - 1]) + 1; // use long to avoid int overflow for int.MaxValue + 1 case
 
-        // Повертаємо мінімум з двох варіантів.
         return Math.Min(withoutCoin, withCoin);
     }
+}
 
-    public static void Main(string[] args)
-    {
-        int[] coins = { 1, 2, 5 };
-        int n = coins.Length;
-        int sum = 11;
+public static void Main(string[] args)
+{
+    int[] coins = { 1, 2, 5 };
+    int sum = 11;
 
-        int minCoins = MinCoins(coins, cointsCount, sum);
+    int minCoins = new CoinChangeRecursive().GetMinCoins(coins, sum);
 
-        if (minCoins == int.MaxValue)
-            Console.WriteLine("Не можливо скласти суму " + sum + " монетами.");
-        else
-            Console.WriteLine("Мінімальна кількість монет для суми " + sum + " гривень: " + minCoins);
-    }
+    int minCoins = GetMinCoins(coins, sum);
+
+    if (minCoins == -1)
+        Console.WriteLine("Не можливо скласти суму " + sum + " монетами.");
+    else
+        Console.WriteLine("Мінімальна кількість монет для суми " + sum + " гривень: " + minCoins);
 }
 
 // Time Complexity O(cointsCount^sum); Exponential time;
