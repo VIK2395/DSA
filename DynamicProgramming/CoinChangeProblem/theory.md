@@ -1,6 +1,8 @@
+Problem:\
 https://leetcode.com/problems/coin-change
 
-https://www.youtube.com/watch?v=H9bfqozjoqs
+Solution explanation:\
+https://www.youtube.com/watch?v=H9bfqozjoqs \
 https://www.youtube.com/watch?v=jgiZlGzXMBw&t=134s
 
 There are 2 approaches in DP:
