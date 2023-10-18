@@ -1,6 +1,9 @@
 Problem:\
 https://leetcode.com/problems/coin-change
 
+Useful for understanding:\
+https://www.ideserve.co.in/learn/coin-change-problem-number-of-ways-to-make-change
+
 Solution explanation:\
 https://www.youtube.com/watch?v=H9bfqozjoqs \
 https://www.youtube.com/watch?v=jgiZlGzXMBw&t=134s
