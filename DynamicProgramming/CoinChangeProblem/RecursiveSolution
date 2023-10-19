@@ -2,7 +2,7 @@ using System;
 
 class CoinChangeRecursive
 {
-    public int GetMinCoins(int[] coins, int sum)
+    public int MinCoins(int[] coins, int sum)
    {
        var minCount = MinCoins(coins, coins.Length, sum);
 
@@ -31,9 +31,7 @@ public static void Main(string[] args)
     int[] coins = { 1, 2, 5 };
     int sum = 11;
 
-    int minCoins = new CoinChangeRecursive().GetMinCoins(coins, sum);
-
-    int minCoins = GetMinCoins(coins, sum);
+    int minCoins = new CoinChangeRecursive().MinCoins(coins, sum);
 
     if (minCoins == -1)
         Console.WriteLine("Не можливо скласти суму " + sum + " монетами.");
