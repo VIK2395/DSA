@@ -6,7 +6,7 @@ class CoinChangeRecursive
    {
        var minCount = MinCoins(coins, coins.Length, sum);
 
-       if (minCount >= int.MaxValue) return -1;
+       if (minCount >= int.MaxValue - 1) return -1;
 
        return minCount;
    }
@@ -17,7 +17,7 @@ class CoinChangeRecursive
         if (sum == 0) return 0;
 
         // Якщо сума від'ємна або монети закінчились, то неможливо скласти суму.
-        if (sum < 0 || n <= 0) return int.MaxValue;
+        if (sum < 0 || n <= 0) return int.MaxValue - 1;
 
         int withCoin = 1 + MinCoins(coins, n, sum - coins[n - 1]); // use (int.MaxValue - 1) as default to avoid int overflow here
         int withoutCoin = MinCoins(coins, n - 1, sum);
