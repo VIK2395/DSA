@@ -39,7 +39,12 @@ public static void Main(string[] args)
         Console.WriteLine("Мінімальна кількість монет для суми " + sum + " гривень: " + minCoins);
 }
 
-__Time Complexity O(cointsCount^sum); Exponential time__;
-__Auxiliary Space Complexity O(sum*cointsCount)__;
+// See RecursionTree.jpg for understanding and
+// https://www.geeksforgeeks.org/perfect-binary-tree
+// Time Complexity O(2^(cointsCount+sum)); Finite geometric progression; Exponential time;
 
-https://www.enjoyalgorithms.com/blog/minimum-coin-change
+// There is another recursion solution:
+// https://www.enjoyalgorithms.com/blog/minimum-coin-change
+// Time Complexity O(cointsCount^sum); Finite geometric progression; Exponential time;
+// Auxiliary Space Complexity O(sum*cointsCount);
+
