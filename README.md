@@ -6,4 +6,5 @@ https://www.geeksforgeeks.org/what-is-the-difference-between-auxiliary-space-and
 Recursion Auxiliary Space Calc:\
 https://www.geeksforgeeks.org/auxiliary-space-recursive-functions
 
-__Tail Recursion__ to learn
+__Tail Recursion__ to learn\
+__Recurrence Relations__ https://www.geeksforgeeks.org/how-to-solve-time-complexity-recurrence-relations-using-recursion-tree-method/
