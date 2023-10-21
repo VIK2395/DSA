@@ -50,4 +50,4 @@ public static void Main(string[] args)
 // https://www.enjoyalgorithms.com/blog/minimum-coin-change
 // Time Complexity O(cointsCount^sum); Finite geometric progression; Exponential time;
 
-// Such difference in algorithms complexity is because of amount of repetitive subpromlems.
+// Such difference in algorithms complexity is because of different amount of repetitive subpromlems.
