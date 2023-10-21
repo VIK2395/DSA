@@ -11,10 +11,10 @@ class CoinChangeRecursive
 
     private int MinCoins(int[] coins, int n, int sum)
     {
-        // Базовий випадок: якщо сума дорівнює 0, то не потрібно використовувати жодної монети.
+        // Base case: if sum equals 0, then no coins are required
         if (sum == 0) return 0;
 
-        // Якщо сума від'ємна або монети закінчились, то неможливо скласти суму.
+        // If sum is negative or no coins are left, then it is impossible to make sum
         if (sum < 0 || n <= 0) return int.MaxValue - 1;
 
         int withCoin = 1 + MinCoins(coins, n, sum - coins[n - 1]); // use (int.MaxValue - 1) as default to avoid int overflow here
