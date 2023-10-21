@@ -48,6 +48,7 @@ public static void Main(string[] args)
 
 // There is another recursion solution:
 // https://www.enjoyalgorithms.com/blog/minimum-coin-change
+// https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/
 // Time Complexity O(cointsCount^sum); Finite geometric progression; Exponential time;
 
 // Such difference in algorithms complexity is because of different amount of repetitive subpromlems.
