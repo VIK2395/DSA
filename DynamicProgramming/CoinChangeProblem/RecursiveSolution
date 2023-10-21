@@ -1,5 +1,3 @@
-using System;
-
 class CoinChangeRecursive
 {
     public int MinCoins(int[] coins, int sum)
