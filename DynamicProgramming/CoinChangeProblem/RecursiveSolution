@@ -42,10 +42,12 @@ public static void Main(string[] args)
 // See RecursionTree.jpg for understanding and
 // https://www.geeksforgeeks.org/perfect-binary-tree
 // Time Complexity O(2^(cointsCount+sum)); Finite geometric progression; Exponential time;
+// Auxiliary Space Complexity O(cointsCount+sum);
+// Input Space Complexity O(coinsCount);
+// Space Complexity O(coinsCount+sum);
 
 // There is another recursion solution:
 // https://www.enjoyalgorithms.com/blog/minimum-coin-change
 // Time Complexity O(cointsCount^sum); Finite geometric progression; Exponential time;
-// Auxiliary Space Complexity O(sum*cointsCount);
 
 // Such difference in algorithms complexity is because of amount of repetitive subpromlems.
