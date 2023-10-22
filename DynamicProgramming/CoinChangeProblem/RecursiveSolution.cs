@@ -50,3 +50,6 @@ public static void Main(string[] args)
 // Time Complexity O(cointsCount^sum); Finite geometric progression; Exponential time;
 
 // Such difference in algorithms complexity is because of different amount of repetitive subpromlems.
+
+// Time Complexity consists of worst-case total number of recursive calls (recursive tree nodes)
+// Auxiliary Space is defined by the deepest recursive tree branch
