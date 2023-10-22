@@ -28,7 +28,7 @@ class CoinChangeDPMemoization
         // If sum is negative or no coins are left, then it is impossible to make sum
         if (sum < 0 || n < 0) return int.MaxValue - 1;
 
-        // Use cashe
+        // Use cache // prevents unnecessary recursive calls 
         if (dp[n, sum] != -1) return dp[n, sum];
 
         // It is required to cache function calls with different parameters combinations. This is why cache[n, sum] is 2D size
@@ -40,6 +40,19 @@ class CoinChangeDPMemoization
         return dp[n, sum];
     }
 }
+
+// We still have some recursive calls.
+// On line 37, we iterate through sum. In worst case, from sum to 0 with step 1;
+// On line 38, we iterate through n(coins), from n to 0;
+// Taking in account the cache(excludes the same calcs), calls on lines 37 and 38 will call each other making cointsCount*(sum+1) combinations, like loop inside loop;
+// Or
+// Because of cache, in the worst case, we need to perform cointsCount*(sum+1) operations to calc each cache item;
+// So, Time Complexity is O(cointsCount*sum).
+
+// We create additional cache array with coinsCount*(sum+1) size.
+// Plus we still have some recursive calls with memory allocated in stack.
+// In worst case, stack height is (coinsCount-1)+sum;
+// So, total Auxiliary Space = O(coinsCount*sum) + O(coinsCount+sum) => O(coinsCount*sum)
 
 public static void Main(string[] args)
 {
