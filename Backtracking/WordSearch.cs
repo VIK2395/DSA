@@ -1,5 +1,7 @@
 public class Solution {
     public bool Exist(char[][] board, string word) {
+        // https://leetcode.com/problems/word-search/description/?envType=list&envId=ob9rj7ig
+        
         // https://www.youtube.com/watch?v=QiBlZzLpJqA
         // https://leetcode.com/problems/word-search/solutions/2439953/python-faster-than-98-w-proof-easy-to-understand/?envType=list&envId=ob9rj7ig
         // https://www.youtube.com/watch?v=pfiQ_PS1g8E&list=PLot-Xpze53lf5C3HSjCnyFghlW0G1HHXo
@@ -30,11 +32,11 @@ public class Solution {
             return result;
         }
 
-        for (int i = 0; i < rows; i++)
+        for (int r = 0; r < rows; r++)
         {
-            for (int j = 0; j < cols; j++)
+            for (int c = 0; c < cols; c++)
             {
-                if (Dfs(i, j, 0)) return true;
+                if (Dfs(r, c, 0)) return true;
             }
         }
 
@@ -77,7 +79,7 @@ public class Solution {
             }
         }
 
-        foreach(KeyValuePair<char, int> wc in wordChars)
+        foreach (KeyValuePair<char, int> wc in wordChars)
         {
             if (boardChars.TryGetValue(wc.Key, out var boardCount))
             {
