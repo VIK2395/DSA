@@ -79,7 +79,7 @@ public class Solution {
             }
         }
 
-        foreach(KeyValuePair<char, int> wc in wordChars)
+        foreach (KeyValuePair<char, int> wc in wordChars)
         {
             if (boardChars.TryGetValue(wc.Key, out var boardCount))
             {
