@@ -53,3 +53,8 @@ public static void Main(string[] args)
 
 // Time Complexity consists of worst-case total number of recursive calls (recursive tree nodes)
 // Auxiliary Space is defined by the deepest recursive tree branch
+
+// Another explanation of recursive time complexity
+// https://www.codingninjas.com/studio/library/recursion-backtracking-time-complexity
+// https://www.youtube.com/watch?v=pfiQ_PS1g8E&list=PLot-Xpze53lf5C3HSjCnyFghlW0G1HHXo 8:50 about recursive func time complexity
+// Time Complexity O(2^n) + O(2^sum) => O(2^(n+sum)), where 2 number of times the func calls itself and n+sum call stack height.
