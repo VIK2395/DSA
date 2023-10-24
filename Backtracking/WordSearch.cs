@@ -32,11 +32,11 @@ public class Solution {
             return result;
         }
 
-        for (int i = 0; i < rows; i++)
+        for (int r = 0; r < rows; r++)
         {
-            for (int j = 0; j < cols; j++)
+            for (int c = 0; c < cols; c++)
             {
-                if (Dfs(i, j, 0)) return true;
+                if (Dfs(r, c, 0)) return true;
             }
         }
 
