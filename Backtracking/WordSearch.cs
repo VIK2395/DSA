@@ -1,5 +1,7 @@
 public class Solution {
     public bool Exist(char[][] board, string word) {
+        // https://leetcode.com/problems/word-search/description/?envType=list&envId=ob9rj7ig
+        
         // https://www.youtube.com/watch?v=QiBlZzLpJqA
         // https://leetcode.com/problems/word-search/solutions/2439953/python-faster-than-98-w-proof-easy-to-understand/?envType=list&envId=ob9rj7ig
         // https://www.youtube.com/watch?v=pfiQ_PS1g8E&list=PLot-Xpze53lf5C3HSjCnyFghlW0G1HHXo
