@@ -17,7 +17,14 @@ class CoinChangeRecursive
         // If sum is negative or no coins are left, then it is impossible to make sum
         if (sum < 0 || n < 0) return int.MaxValue - 1;
 
-        int withCoin = 1 + MinCoins(coins, n, sum - coins[n]); // use (int.MaxValue - 1) as default to avoid int overflow here
+        // DFS traversal;
+        // sum => like a node in the recursion tree;
+        // sum is traversed in pre-order manner;
+        // But the result of MinCoins, we get in post-order manner as we need first traverse "withCoin" and "withoutCoin" subtrees first to do Math.Min(withCoin, withoutCoin);
+        // https://www.enjoyalgorithms.com/blog/binary-tree-traversals-preorder-inorder-postorder
+        // https://www.geeksforgeeks.org/dfs-traversal-of-a-tree-using-recursion/
+
+        int withCoin = 1 + MinCoins(coins, n, sum - coins[n]); // use (int.MaxValue - 1) as default to avoid int overflow here;
         int withoutCoin = MinCoins(coins, n - 1, sum);
 
         return Math.Min(withCoin, withoutCoin);
