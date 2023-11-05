@@ -1,4 +1,4 @@
-There are 3 types of recursion:
+Types of recursion:
 
 - Direct recursion (also called mutual recursion);
 - Indirect recursion (when a function is called not by itself but by another function that it called by the recursive function);
