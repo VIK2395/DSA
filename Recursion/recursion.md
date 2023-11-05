@@ -13,18 +13,19 @@ Source https://en.wikipedia.org/wiki/Tail_call
 
 Traditional vs Tail\
 https://www.quora.com/What-is-the-difference-between-normal-recursion-and-tail-recursion-with-examples\
-https://www.pixelstech.net/article/1474689232-Traditional-recursion-vs-Tail-recursion#:~:text=In%20simple%2C%20the%20main%20difference,recursion%20call%20in%20tail%20recursion.
+https://www.pixelstech.net/article/1474689232-Traditional-recursion-vs-Tail-recursion#:~:text=In%20simple%2C%20the%20main%20difference,recursion%20call%20in%20tail%20recursion\
+https://www.youtube.com/watch?v=XMBgja5u70M
 
 https://www.youtube.com/watch?v=l3qIbfuAhCw \
 https://www.geeksforgeeks.org/types-of-recursions/ \
 https://stackoverflow.com/questions/33923/what-is-tail-recursion
 
-__Tail recursion implemantation can always be re-written in a loop manner.__
-
-In some programmming languages, while compiling __Tail-call optimization or tail-call elimination__ is performed(i.e. final code uses GOTO/JUMP instructions over a tail-recursive method, which is equivalent to an iterative loop implementation)
-  
+__Not all recursions can be made tail-recursive.__ https://www.youtube.com/watch?v=XMBgja5u70M 4:55\
+__Tail recursion implemantation can always be re-written in a loop manner.__ https://www.youtube.com/watch?v=l3qIbfuAhCw \
 __In tail recursion, we accumulate result in a parameter/argument and pass it across the calls.__\
 It works as a reducer func in JavaScript.
+
+In some programmming languages, while compiling __Tail-call optimization or tail-call elimination__ is performed(i.e. final code uses GOTO/JUMP instructions over a tail-recursive method, which is equivalent to an iterative loop implementation)
 
 =================================================================\
 __Recursion Auxiliary space complexity:__\
