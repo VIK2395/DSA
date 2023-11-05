@@ -12,8 +12,8 @@ If the target of a tail is the same subroutine, the subroutine is said to be __t
 Source https://en.wikipedia.org/wiki/Tail_call
 
 Traditional vs Tail\
-https://www.quora.com/What-is-the-difference-between-normal-recursion-and-tail-recursion-with-examples\
-https://www.pixelstech.net/article/1474689232-Traditional-recursion-vs-Tail-recursion#:~:text=In%20simple%2C%20the%20main%20difference,recursion%20call%20in%20tail%20recursion\
+https://www.quora.com/What-is-the-difference-between-normal-recursion-and-tail-recursion-with-examples \
+https://www.pixelstech.net/article/1474689232-Traditional-recursion-vs-Tail-recursion#:~:text=In%20simple%2C%20the%20main%20difference,recursion%20call%20in%20tail%20recursion \
 https://www.youtube.com/watch?v=XMBgja5u70M
 
 https://www.youtube.com/watch?v=l3qIbfuAhCw \
