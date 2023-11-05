@@ -4,6 +4,8 @@ Types of recursion:
 - Indirect recursion (when a function is called not by itself but by another function that it called by the recursive function);
 - Head recursion;
 - Tail recursion;
+- Tree recursion;
+- Nested recursion;
 
 https://en.wikipedia.org/wiki/Tail_call \
 https://www.youtube.com/watch?v=l3qIbfuAhCw \
