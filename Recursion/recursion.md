@@ -4,7 +4,7 @@
 Types of recursion:
 
 - __Direct recursion__ (also called mutual recursion) / __Indirect recursion__ (when a function is called not by itself but by another function that it called by the recursive function);
-- Head(Non-Tail) / Tail recursion;
+- General / Head / Tail recursion (recursive functions that don't fit neatly into the categories of head or tail recursion are typically referred to as "non-tail recursion" or "general recursion");
 - Liner / Tree recursion;
 - Nested recursion;
 
