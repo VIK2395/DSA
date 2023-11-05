@@ -7,7 +7,8 @@ Types of recursion:
 
 https://en.wikipedia.org/wiki/Tail_call \
 https://www.youtube.com/watch?v=l3qIbfuAhCw \
-https://www.geeksforgeeks.org/types-of-recursions/
+https://www.geeksforgeeks.org/types-of-recursions/ \
+https://stackoverflow.com/questions/33923/what-is-tail-recursion
 
 __Tail recursion implemantation can always be re-written in a loop manner.__
 
@@ -16,3 +17,4 @@ In some programmming languages, while compiling __Tail-call optimization or tail
 - Base case
 - Recursive case
   
+__In tail recursion, we accumulate result in a parameter/argument and pass it across the calls.__
