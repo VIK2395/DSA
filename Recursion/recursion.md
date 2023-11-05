@@ -1,8 +1,7 @@
 Types of recursion:
 
 - (Traditional) __Direct recursion__ (also called mutual recursion) / __Indirect recursion__ (when a function is called not by itself but by another function that it called by the recursive function);
-- Head recursion;
-- Tail recursion;
+- Head / Tail recursion;
 - Liner / Tree recursion;
 - Nested recursion;
 
@@ -18,4 +17,5 @@ In some programmming languages, while compiling __Tail-call optimization or tail
 - Base case
 - Recursive case
   
-__In tail recursion, we accumulate result in a parameter/argument and pass it across the calls.__
+__In tail recursion, we accumulate result in a parameter/argument and pass it across the calls.__\
+It works as a reducer func in JavaScript.
