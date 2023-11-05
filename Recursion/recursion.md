@@ -1,10 +1,9 @@
 Types of recursion:
 
-- Direct recursion (also called mutual recursion);
-- Indirect recursion (when a function is called not by itself but by another function that it called by the recursive function);
+- __Direct recursion__ (also called mutual recursion) / __Indirect recursion__ (when a function is called not by itself but by another function that it called by the recursive function);
 - Head recursion;
 - Tail recursion;
-- Tree recursion;
+- Liner / Tree recursion;
 - Nested recursion;
 
 https://en.wikipedia.org/wiki/Tail_call \
