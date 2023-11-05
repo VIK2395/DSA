@@ -1,11 +1,20 @@
+- Base case
+- Recursive case
+
 Types of recursion:
 
-- (Traditional) __Direct recursion__ (also called mutual recursion) / __Indirect recursion__ (when a function is called not by itself but by another function that it called by the recursive function);
-- Head / Tail recursion;
+- __Direct recursion__ (also called mutual recursion) / __Indirect recursion__ (when a function is called not by itself but by another function that it called by the recursive function);
+- Traditional / Head / Tail recursion;
 - Liner / Tree recursion;
 - Nested recursion;
 
-https://en.wikipedia.org/wiki/Tail_call \
+If the target of a tail is the same subroutine, the subroutine is said to be __tail recursive, which is a special case of direct recursion__.\
+Source https://en.wikipedia.org/wiki/Tail_call
+
+Traditional vs Tail\
+https://www.quora.com/What-is-the-difference-between-normal-recursion-and-tail-recursion-with-examples\
+https://www.pixelstech.net/article/1474689232-Traditional-recursion-vs-Tail-recursion#:~:text=In%20simple%2C%20the%20main%20difference,recursion%20call%20in%20tail%20recursion.
+
 https://www.youtube.com/watch?v=l3qIbfuAhCw \
 https://www.geeksforgeeks.org/types-of-recursions/ \
 https://stackoverflow.com/questions/33923/what-is-tail-recursion
@@ -13,9 +22,6 @@ https://stackoverflow.com/questions/33923/what-is-tail-recursion
 __Tail recursion implemantation can always be re-written in a loop manner.__
 
 In some programmming languages, while compiling __Tail-call optimization or tail-call elimination__ is performed(i.e. final code uses GOTO/JUMP instructions over a tail-recursive method, which is equivalent to an iterative loop implementation)
-
-- Base case
-- Recursive case
   
 __In tail recursion, we accumulate result in a parameter/argument and pass it across the calls.__\
 It works as a reducer func in JavaScript.
