@@ -22,7 +22,7 @@ https://stackoverflow.com/questions/33923/what-is-tail-recursion
 
 __Not all recursions can be made tail-recursive.__ https://www.youtube.com/watch?v=XMBgja5u70M 4:55\
 __Tail recursion implemantation can always be re-written in a loop manner.__ https://www.youtube.com/watch?v=l3qIbfuAhCw \
-__In tail recursion, we accumulate result in a parameter/argument and pass it across the calls. And in base case, we return that accumulated result.__\ 
+__In tail recursion, we accumulate result in a parameter/argument and pass it across the calls. And in base case, we return that accumulated result.__\
 It works as a reducer func in JavaScript.
 
 In some programmming languages, while compiling __Tail-call optimization or tail-call elimination__ is performed(i.e. final code uses GOTO/JUMP instructions over a tail-recursive method, which is equivalent to an iterative loop implementation)
