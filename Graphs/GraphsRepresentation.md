@@ -7,3 +7,7 @@
 
 Adjacency list vs matrix, pros vs cons:\
 https://iq.opengenus.org/graph-representation-adjacency-matrix-adjacency-list/
+
+Detect cycle in graphs:\
+https://www.geeksforgeeks.org/detect-cycle-in-a-graph/ \
+https://www.geeksforgeeks.org/detect-cycle-undirected-graph/
