@@ -20,4 +20,4 @@ https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
 https://www.geeksforgeeks.org/why-is-the-complexity-of-both-bfs-and-dfs-ove/ \
 Graph might have two different disconnected parts so to make sure that we cover every vertex, we run DFS algorithm on every node.
 The outer loop will be executed V times and inner loop will be executed E times exactly once. Thus, Time Complexity O(V+E).
-Auxiliary Space Complexity O(2*V) = O(V). In worst case recursive __call stack__ height will be filled with all vertices(liner graph), plus extra array/set to keep track of visited verticles.
+Auxiliary Space Complexity O(2*V) = O(V). In worst case recursive __call stack__ depth will be the number of vertices(liner graph), plus extra array/set to keep track of the visited verticles.
