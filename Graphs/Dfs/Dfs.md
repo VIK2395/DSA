@@ -8,7 +8,16 @@ Has 3 three traversal approaches:
 - In-order https://leetcode.com/problems/binary-tree-inorder-traversal/?envType=list&envId=ob9rj7ig;
 - Post-order https://leetcode.com/problems/binary-tree-postorder-traversal/?envType=list&envId=ob9rj7ig;
 
+About traversal strategies:\
 https://www.geeksforgeeks.org/dfs-traversal-of-a-tree-using-recursion \
 *Here backtracking is used for traversal. In this traversal first, the deepest node is visited and then backtracks to its parent node\
 if no sibling of that node exists*.\
 https://www.enjoyalgorithms.com/blog/binary-tree-traversals-preorder-inorder-postorder
+
+Algorithm for graphs:\
+https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
+
+https://www.geeksforgeeks.org/why-is-the-complexity-of-both-bfs-and-dfs-ove/ \
+Graph might have two different disconnected parts so to make sure that we cover every vertex, we run DFS algorithm on every node.
+The outer loop will be executed V times and inner loop will be executed E times exactly once. Thus, Time Complexity O(V+E).
+Space Complexity O(2*V) = O(V). In worst case recursive stack height will be filled with all vertices(liner graph), plus extra array/set to keep track of visited verticles.
