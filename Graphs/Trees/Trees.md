@@ -1,5 +1,7 @@
 Self-balancing trees:
 
+https://www.youtube.com/playlist?list=PLlsmxlJgn1HJRYU7YIf8DSEg8_DGwSV29
+
 - B-three (M-way Balanced Tree) => a self-balancing tree; M-way tree where m - number of child nodes;
 - AVL Tree => Georgy __Adelson-Velsky__ and Evgenii __Landis__ => a self-balancing binary search tree; M-way tree where m=2;
 - Red-Black Tree => a self-balancing binary search tree, where each node has either the color of red or black; The colors of the nodes are used to make sure that the tree remains approximately balanced during insertion and deletion;
