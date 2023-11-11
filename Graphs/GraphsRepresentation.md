@@ -14,4 +14,5 @@ https://www.geeksforgeeks.org/detect-cycle-undirected-graph/
 
 Disconnected graph:
 ![image](https://github.com/VIK2395/DSA/assets/50545334/6f1e6d88-b484-4852-8131-52f56d59b77e)
+![image](https://github.com/VIK2395/DSA/assets/50545334/e43455a7-730b-47e1-9c3a-4b8af3f9ab4b)
 
