@@ -17,3 +17,10 @@ https://www.youtube.com/playlist?list=PLlsmxlJgn1HJRYU7YIf8DSEg8_DGwSV29
 
 Balanced Binary Tree:\
 https://www.geeksforgeeks.org/balanced-binary-tree/
+
+All binary tree types:\
+https://www.geeksforgeeks.org/types-of-binary-tree/
+
+- Full binary tree;
+- Complete binary tree;
+- Perfect binary tree;
