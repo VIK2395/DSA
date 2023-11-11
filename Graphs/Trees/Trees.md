@@ -22,6 +22,8 @@ Balanced Binary Tree:\
 https://www.programiz.com/dsa/balanced-binary-tree \
 https://www.geeksforgeeks.org/balanced-binary-tree/
 
+LeetCode: https://leetcode.com/problems/balanced-binary-tree/
+
 ![image](https://github.com/VIK2395/DSA/assets/50545334/8c05edb9-8b6a-4597-9358-b3dea618a621)
 
 Some binary tree types:\
