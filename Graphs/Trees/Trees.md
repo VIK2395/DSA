@@ -6,6 +6,9 @@ Trees:
 
 Self-balancing trees:
 
+Why tree balancing is important:
+https://www.youtube.com/watch?v=bZMNBTkiUoM&list=PLlsmxlJgn1HJRYU7YIf8DSEg8_DGwSV29&index=1 3:28
+
 https://www.youtube.com/playlist?list=PLlsmxlJgn1HJRYU7YIf8DSEg8_DGwSV29
 
 - B-Three (M-way Balanced Tree) => a self-balancing tree; M-way tree where m - number of child nodes;
