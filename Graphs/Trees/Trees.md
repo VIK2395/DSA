@@ -16,6 +16,7 @@ https://www.youtube.com/playlist?list=PLlsmxlJgn1HJRYU7YIf8DSEg8_DGwSV29
 - Treap Tree (Cartesian tree) => a self-balancing randomized binary search tree; combines properties of both a binary search tree and a heap;
 
 Balanced Binary Tree:\
+https://www.programiz.com/dsa/balanced-binary-tree \
 https://www.geeksforgeeks.org/balanced-binary-tree/
 
 All binary tree types:\
