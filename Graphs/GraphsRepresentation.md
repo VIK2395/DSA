@@ -11,3 +11,7 @@ https://iq.opengenus.org/graph-representation-adjacency-matrix-adjacency-list/
 Detect cycle in graphs:\
 https://www.geeksforgeeks.org/detect-cycle-in-a-graph/ \
 https://www.geeksforgeeks.org/detect-cycle-undirected-graph/
+
+Disconnected graph:
+![image](https://github.com/VIK2395/DSA/assets/50545334/6f1e6d88-b484-4852-8131-52f56d59b77e)
+
