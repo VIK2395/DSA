@@ -22,7 +22,7 @@ Balanced Binary Tree:\
 https://www.programiz.com/dsa/balanced-binary-tree \
 https://www.geeksforgeeks.org/balanced-binary-tree/
 
-All binary tree types:\
+Some binary tree types:\
 https://www.geeksforgeeks.org/types-of-binary-tree/
 
 - Full binary tree;
