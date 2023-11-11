@@ -1,3 +1,9 @@
+Trees:
+- Undirected;
+- Connected;
+- Acyclic;
+- Has root node;
+
 Self-balancing trees:
 
 https://www.youtube.com/playlist?list=PLlsmxlJgn1HJRYU7YIf8DSEg8_DGwSV29
