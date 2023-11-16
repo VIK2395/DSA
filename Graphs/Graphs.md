@@ -5,10 +5,16 @@ Graphs representation:
   https://www.youtube.com/watch?v=EgI5nU9etnU
 - Adjacency matrix\
   https://www.geeksforgeeks.org/adjacency-matrix-meaning-and-definition-in-dsa/
-- Incidence matrix ?
+
+Read also:\
+https://en.wikipedia.org/wiki/Adjacency_matrix
+- Incidence matrix;
+- Degree matrix;
 
 Adjacency list and matrix for directed/undirected weighted/unweighted graphs:\
 https://iq.opengenus.org/adjacency-matrix/
+
+![image](https://github.com/VIK2395/DSA/assets/50545334/b2158b87-8c0f-45b9-aa28-d975f09f274d)
 
 Adjacency list vs matrix, pros vs cons:\
 https://iq.opengenus.org/graph-representation-adjacency-matrix-adjacency-list/
