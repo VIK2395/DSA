@@ -8,7 +8,7 @@ Graphs representation:
 - Incidence matrix ?
 
 Adjacency list and matrix for directed/undirected weighted/unweighted graphs:\
-https://www.tutorialtpoint.net/2021/06/graph-representation-adjacency-matrix-linked-list.html
+https://iq.opengenus.org/adjacency-matrix/
 
 Adjacency list vs matrix, pros vs cons:\
 https://iq.opengenus.org/graph-representation-adjacency-matrix-adjacency-list/
