@@ -18,6 +18,8 @@ https://iq.opengenus.org/adjacency-matrix/
 
 ![image](https://github.com/VIK2395/DSA/assets/50545334/da1285a4-0d0f-41bc-9366-885ae1dba9e4)
 
+![image](https://github.com/VIK2395/DSA/assets/50545334/f40fe4ec-f91c-4946-b665-9075d3363a7c)
+
 Adjacency list vs matrix, pros vs cons:\
 https://iq.opengenus.org/graph-representation-adjacency-matrix-adjacency-list/
 
