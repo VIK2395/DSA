@@ -36,3 +36,5 @@ Disconnected graph:
 
 ONLY directed graphs can be weakly or strongly connected:
 ![image](https://github.com/VIK2395/DSA/assets/50545334/554be427-cb11-4e41-9eb5-210c9b920a19)
+
+![image](https://github.com/VIK2395/DSA/assets/50545334/38c33aa9-ba3b-4d5e-acc4-86995d44998b)
