@@ -1,7 +1,7 @@
 Dijkstra's Shortest Path Algorithm:
 - Works ONLY with positive weights graphs;
 - Works with both CYCLIC and acyclic graphs https://stackoverflow.com/questions/43394847/dijkstras-algorithm-and-cycles
-- Works with BOTH directed and undirected graphs https://stackoverflow.com/questions/38190592/is-dijkstras-algorithm-for-directed-or-undirected-graphs
+- Works with BOTH directed and undirected graphs (because an undirected edge is a bidirectional edge, thus is a cycle. But the algorithm works despite cycles) https://stackoverflow.com/questions/38190592/is-dijkstras-algorithm-for-directed-or-undirected-graphs
   
 Bellman–Ford algorithm for graphs with negative weights.
 
