@@ -5,4 +5,6 @@ For Weighted Directed Acyclic Graph(DAG), only positive weights. Bellman–Ford 
 
 https://www.youtube.com/watch?v=bZkzH5x0SKU
 
-LeetCode: https://leetcode.com/problems/network-delay-time/?envType=list&envId=ob9rj7ig
+LeetCode:\
+https://leetcode.com/problems/network-delay-time/?envType=list&envId=ob9rj7ig \
+https://www.youtube.com/watch?v=EaphyqKU4PQ
