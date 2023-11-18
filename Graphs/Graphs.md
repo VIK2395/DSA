@@ -27,7 +27,12 @@ Detect cycle in graphs:\
 https://www.geeksforgeeks.org/detect-cycle-in-a-graph/ \
 https://www.geeksforgeeks.org/detect-cycle-undirected-graph/
 
+General graphs info:\
+https://www.youtube.com/watch?v=UUuFT5K6zrI
+
 Disconnected graph:
 ![image](https://github.com/VIK2395/DSA/assets/50545334/6f1e6d88-b484-4852-8131-52f56d59b77e)
-![image](https://github.com/VIK2395/DSA/assets/50545334/e43455a7-730b-47e1-9c3a-4b8af3f9ab4b)
+![image](https://github.com/VIK2395/DSA/assets/50545334/1ddc989f-d6d7-4eb9-9a7e-5fec76e0b7ba)
 
+ONLY directed graphs can be weakly or strongly connected:
+![image](https://github.com/VIK2395/DSA/assets/50545334/554be427-cb11-4e41-9eb5-210c9b920a19)
