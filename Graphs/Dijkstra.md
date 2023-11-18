@@ -1,4 +1,4 @@
-Dijkstra's Shortest Path Algorithm:\
+Dijkstra's Shortest Path Algorithm:
 - Works ONLY with positive weights graphs;
 - Works with both CYCLIC and acyclic graphs https://stackoverflow.com/questions/43394847/dijkstras-algorithm-and-cycles
 - Works with BOTH directed and undirected graphs https://stackoverflow.com/questions/38190592/is-dijkstras-algorithm-for-directed-or-undirected-graphs
