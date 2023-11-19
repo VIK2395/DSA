@@ -16,7 +16,7 @@ Idea uder the hood:
 3. Calc and update costs of its (not visited) neighbors;
 4. Repeat step 2-3 until all vertices are visited;
 
-A vertex cost is the cost of the path between the start vertex and the current vertex.
+__A vertex cost is the cost of the path between the start vertex and the current vertex.__
 
 LeetCode:\
 https://leetcode.com/problems/network-delay-time/?envType=list&envId=ob9rj7ig \
