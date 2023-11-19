@@ -9,3 +9,10 @@ https://en.wikipedia.org/wiki/Prim%27s_algorithm
 
 https://www.youtube.com/watch?v=f7JOBJIC-NA \
 LeetCode: https://leetcode.com/problems/min-cost-to-connect-all-points/?envType=list&envId=ob9rj7ig
+
+Idea uder the hood:\
+https://www.programiz.com/dsa/prim-algorithm
+1. Select a random vertex and add it to the result tree, it's cost is 0;
+2. Expand all the tree neighbor vertices(connected with edges) and calc their costs;
+3. Select the minimun cost neighbor vertex and add it to the tree (the new tree vertex brings more it's neighbor vertices to process);
+4. Repeat 2-3, untill all nodes are visited/included;
