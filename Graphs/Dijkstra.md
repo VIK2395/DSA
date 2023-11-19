@@ -7,9 +7,14 @@ Dijkstra's Shortest Path Algorithm:
   
 Bellman–Ford algorithm for graphs with negative weights.
 
+https://www.youtube.com/watch?v=bZkzH5x0SKU \
 ![image](https://github.com/VIK2395/DSA/assets/50545334/a9691360-d51e-4f86-bff7-74875ad574e3)
 
-https://www.youtube.com/watch?v=bZkzH5x0SKU
+Idea uder the hood:
+1. Init costs store, set start vertex cost 0, other vertices cost infinity;
+2. Select current min cost vertex; mark as visited;
+3. Calc and update costs of its (not visited) neighbors;
+4. Repeat step 2-3 until all vertices are visited;
 
 LeetCode:\
 https://leetcode.com/problems/network-delay-time/?envType=list&envId=ob9rj7ig \
