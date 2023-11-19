@@ -17,4 +17,4 @@ https://www.programiz.com/dsa/prim-algorithm
 3. Calc and update costs of its (not visited) neighbors;
 4. Repeat step 2-3 until all vertices are visited;
 
-__A vertex cost is the cost of the edge between two vertex neighbors.__
+__A vertex cost is the cost of the edge between two neighbor vertices.__
