@@ -12,9 +12,9 @@ LeetCode: https://leetcode.com/problems/min-cost-to-connect-all-points/?envType=
 
 Idea uder the hood:\
 https://www.programiz.com/dsa/prim-algorithm
-1. Select a random vertex and add it to the result tree, it's cost is 0;
-2. Mark the vertex as visited; Expand all the tree (not visited) neighbor vertices (connected with edges) and calc their costs;
-3. Select the minimun cost neighbor vertex and add it to the tree (the new tree vertex brings more it's neighbor vertices to process);
-4. Repeat 2-3, untill all nodes are visited/included;
+1. Init costs store, select a random start vertex, set its cost 0, other vertices cost infinity;
+2. Select current min cost vertex; mark as visited;
+3. Calc and update costs of its (not visited) neighbors;
+4. Repeat step 2-3 until all vertices are visited;
 
-__A vertex cost is the cost between two neighbor vertices.__
+__A vertex cost is the cost of the path between the start vertex and the current vertex.__
