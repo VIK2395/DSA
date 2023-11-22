@@ -1,5 +1,6 @@
 https://en.wikipedia.org/wiki/Disjoint_sets \
-https://en.wikipedia.org/wiki/Disjoint-set_data_structure
+https://en.wikipedia.org/wiki/Disjoint-set_data_structure \
+https://www.geeksforgeeks.org/disjoint-set-data-structures
 
 Disjoint sets are just not overlapping sets.
 
