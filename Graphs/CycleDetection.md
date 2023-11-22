@@ -8,6 +8,8 @@ Both directed and undirected graphs:
 Directed grapths only:
 - Topological Sorting\
   https://www.geeksforgeeks.org/detect-cycle-in-a-graph/
+- Kahn’s algorithm for Topological Sorting\
+  (BFS) https://www.geeksforgeeks.org/detect-cycle-in-a-directed-graph-using-bfs/
 
 Undirected graph onlys:
 - Union-Find\
