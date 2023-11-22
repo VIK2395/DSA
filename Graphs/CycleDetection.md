@@ -1,15 +1,15 @@
 Both directed and undirected graphs:
-- DFS
+- DFS\
   https://www.geeksforgeeks.org/detect-cycle-undirected-graph/ \
-  https://www.geeksforgeeks.org/detect-cycle-in-a-graph/
+  https://www.geeksforgeeks.org/detect-cycle-in-a-graph/ \
   (using colors, directed) https://www.geeksforgeeks.org/detect-cycle-direct-graph-using-colors/
-- Topological Sorting
-  https://www.geeksforgeeks.org/detect-cycle-in-a-graph/
   
 
 Directed grapths only:
+- Topological Sorting\
+  https://www.geeksforgeeks.org/detect-cycle-in-a-graph/
 
 Undirected graph onlys:
-- Union-Find
+- Union-Find\
   https://www.geeksforgeeks.org/detect-cycle-in-graph-using-dsu/
   
