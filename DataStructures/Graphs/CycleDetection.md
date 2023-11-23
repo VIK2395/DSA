@@ -12,6 +12,6 @@ Directed grapths only:
 
 Undirected graph only:
 - Union-Find\
-  https://www.geeksforgeeks.org/detect-cycle-in-graph-using-dsu/\
+  https://www.geeksforgeeks.org/detect-cycle-in-graph-using-dsu/ \
   https://stackoverflow.com/questions/61167751/can-we-detect-cycles-in-directed-graph-using-union-find-data-structure
   
