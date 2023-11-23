@@ -1,5 +1,7 @@
 This algorithm uses the disjoint set DS.
 
+LeetCode: https://leetcode.com/problems/redundant-connection/?envType=list&envId=ob9rj7ig
+
 The idea, very simply explained: \
 https://www.youtube.com/watch?v=ayW5B2W9hfo
 
