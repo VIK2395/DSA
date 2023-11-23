@@ -1,8 +1,14 @@
+A tree is a hierarchical structure and an undirected graph that is connected and has no cycles.
+
+![image](https://github.com/VIK2395/DSA/assets/50545334/be939f3c-1d80-4682-b3e5-7b8c9a7792d7)
+
+![image](https://github.com/VIK2395/DSA/assets/50545334/c9bffa5b-1d7f-4b02-ba84-06bce80e1dc6)
+
 Trees:
 - Undirected;
 - Connected;
 - Acyclic;
-- Has root node;
+- Has root node (hierarchical);
 
 Self-balancing trees:
 
