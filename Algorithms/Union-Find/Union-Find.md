@@ -10,4 +10,7 @@ https://www.youtube.com/watch?v=VHRhJWacxis&list=PLDV1Zeh2NRsBI1C-mR6ZhHTyfoEJWl
 https://www.geeksforgeeks.org/introduction-to-disjoint-set-data-structure-or-union-find-algorithm \
 https://www.geeksforgeeks.org/union-by-rank-and-path-compression-in-union-find-algorithm
 
+Path compression applied to find;\
+Rank applied to union;
+
 __Amortized__ time complexity is used to estimate time complexity
