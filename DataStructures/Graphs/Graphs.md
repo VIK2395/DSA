@@ -17,6 +17,8 @@ Graphs characteristics:
 - positive/__negative__ cycle (if cyclic);
 - dense(has many edges)/sparse(has many vertices);
 
+![image](https://github.com/VIK2395/DSA/assets/50545334/3fe23ee1-5ace-49ab-928d-d7d376500648)
+
 Graphs representation:
 
 - Adjacency list\
