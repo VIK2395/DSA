@@ -1,3 +1,22 @@
+Graphs characteristics:
+
+- directed/undirected;
+- weighted/unweighted;
+- positive/negative weight edges (if weighted);
+==============================================================
+- connected/disconnected graph (only applicable for undirected graphs)\
+  https://www.quora.com/What-is-an-example-of-an-directed-non-connected-graph \
+  https://en.wikipedia.org/wiki/Connectivity_(graph_theory);
+- has __connected components__ (only applicable for undirected graphs);
+==============================================================
+- strongly/unilaterally/weakly connected graph (only applicable for directed graphs)\
+  https://www.geeksforgeeks.org/check-if-a-graph-is-strongly-unilaterally-or-weakly-connected/;
+- has __strongly/weakly connected components__ (only applicable for directed graphs);
+==============================================================
+- cyclic/acyclic;
+- positive/__negative__ cycle (if cyclic);
+- dense(has many edges)/sparse(has many vertices);
+
 Graphs representation:
 
 - Adjacency list\
