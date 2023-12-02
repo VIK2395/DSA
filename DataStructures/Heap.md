@@ -1,7 +1,7 @@
 https://stackoverflow.com/questions/52556930/time-complexity-of-the-heap-pop-operation
 
 Peek => O(1);\
-Pop => O(logn);
+Pop => O(log(n));
 
 https://iq.opengenus.org/time-and-space-complexity-of-heap/
 
