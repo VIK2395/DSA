@@ -62,3 +62,5 @@ ONLY directed graphs can be weakly or strongly connected:
 ![image](https://github.com/VIK2395/DSA/assets/50545334/38c33aa9-ba3b-4d5e-acc4-86995d44998b)
 
 ![image](https://github.com/VIK2395/DSA/assets/50545334/579c94f0-5842-4609-8947-a6cc4dad35e6)
+
+![image](https://github.com/VIK2395/DSA/assets/50545334/f18be445-6316-44c4-93ea-fd8e5d5bd7ce)
