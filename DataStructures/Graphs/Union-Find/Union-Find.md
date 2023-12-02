@@ -1,4 +1,4 @@
-This algorithm uses the disjoint set DS.
+This algorithm uses the disjoint set data structure. It is not specific to graph problems, and can be used to solve problems that can be represented with disjoint sets.
 
 LeetCode: https://leetcode.com/problems/redundant-connection/?envType=list&envId=ob9rj7ig
 
