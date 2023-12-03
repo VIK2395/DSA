@@ -10,6 +10,7 @@ https://www.youtube.com/watch?v=4OQeCuLYj-4
 - directed and undirected graphs;
 - works with positive cycles for directed and undirected graphs;
 - does not work with negative cycles for directed and undirected graphs;
+- can detect negative cycles;
 
 ![image](https://github.com/VIK2395/DSA/assets/50545334/396e8582-fe23-4b26-999a-ee5039d2eb94)
 
