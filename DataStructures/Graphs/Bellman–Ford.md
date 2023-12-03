@@ -11,3 +11,4 @@ https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23
 - works with positive cycles for directed and undirected graphs;
 - doesn't work with negative cycles;
 - can detect negative cycles and determine where they occur;
+- There is modification for disconnected graphs;
