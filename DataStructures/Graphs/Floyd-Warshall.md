@@ -8,8 +8,8 @@ https://www.youtube.com/watch?v=4OQeCuLYj-4
 - only for weighted graphs;
 - positive and negative edge weights;
 - directed and undirected graphs;
-- it does not work for the graphs with negative cycles;
-- how about positive cycles?
+- works with positive cycles for directed and undirected graphs;
+- does not work with negative cycles for directed and undirected graphs;
 
 ![image](https://github.com/VIK2395/DSA/assets/50545334/396e8582-fe23-4b26-999a-ee5039d2eb94)
 
