@@ -1,7 +1,8 @@
 LeetCode:\
 https://leetcode.com/problems/cheapest-flights-within-k-stops/
 
-https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23
+https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23 \
+https://www.youtube.com/watch?v=obWXjtg0L64
 
 - originally for __directed__ graphs; can work with __undirected positive__ graphs (fails for undirected graphs with negative edges as it counts as negative cycle):\
   https://stackoverflow.com/questions/14785413/can-we-apply-the-bellman-ford-algorithm-to-an-undirected-graph
