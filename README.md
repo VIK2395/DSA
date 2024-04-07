@@ -12,5 +12,7 @@ https://leetcode.com/problems/longest-common-subsequence/submissions/1108449232/
 Amortized time complexity:\
 https://www.geeksforgeeks.org/introduction-to-amortized-analysis/
 
+![image](https://github.com/VIK2395/DSA/assets/50545334/077e43b9-2d5c-4d9e-b6fe-f55a26d337f2)
+
 List of DS:\
 https://www.tutorialspoint.com/data_structures_algorithms/kruskals_spanning_tree_algorithm.htm
